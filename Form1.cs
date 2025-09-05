@@ -34,6 +34,15 @@ namespace ConexionDB
             MessageBox.Show("No se puede omitir la descripción");
         }
 
+        private void validarInputs2(object sender, EventArgs e)
+        {
+            MessageBox.Show("No se puede omitir la descripción");
+            MessageBox.Show("No se puede omitir la descripción");
+            MessageBox.Show("No se puede omitir la descripción");
+            MessageBox.Show("No se puede omitir la descripción");
+            MessageBox.Show("No se puede omitir la descripción");
+        }
+
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             SqlConnection conexion = new SqlConnection("server=SYN\\SQLEXPRESS;integrated security=true;database=base1");
